@@ -10,7 +10,7 @@ Text Domain: polen
 .slider {
     display: inline-block;
     text-align: center;
-    height: 24em;
+    height: 26em;
     width: 100%;
 }
 
@@ -22,7 +22,7 @@ Text Domain: polen
     position: relative;
     top: 227px;
     width: 992px;
-    left: -222px;
+    left: -221px;
 }
 
 #logopolen {
@@ -31,9 +31,14 @@ Text Domain: polen
     top: -44px;
 }
 
+nav {
+    margin-top: 1em;
+}
+
 nav ul {
 margin: auto;
 width: 66%;
+padding: 0;
 }
 
 nav ul li{
@@ -48,4 +53,26 @@ nav ul li a, nav ul li a:active, nav ul li a:visited  {
 
 nav ul li a:hover {
     background-color: #c8c8c8;
+}
+
+main div {
+    padding: 0;
+    margin: auto;
+}
+
+#externalLink div {
+    padding: 0;
+}
+
+#externalLink {
+    margin: auto;
+    width: 66%;
+}
+
+#externalLink .col-xs-4 {
+    width: 28.333%
+}
+
+#externalLink img {
+    float: left;
 }

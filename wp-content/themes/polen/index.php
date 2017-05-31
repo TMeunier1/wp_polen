@@ -17,7 +17,34 @@
 get_header(); ?>
 
 <main>
-
+    <div class="container" id="externalLink">
+        <div class="row">
+            <div class="col-xs-4">
+                <a href="#">
+                    <img src="wp-content/uploads/img/pep8.png" alt="">
+                    <h2>Pépinière d'entreprises</h2>
+                </a>
+                <p>Hébergement des entreprises innovantes du département</p>
+                <a href="#">Infos »</a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#">
+                    <img src="wp-content/uploads/img/tic8.png" alt="">
+                    <h2>Centre de ressources TIC</h2>
+                </a>
+                <p>Un espace dédié aux nouvelles technologies pour les entreprises</p>
+                <a href="#">Infos »</a>
+            </div>
+            <div class="col-xs-4">
+                <a href="#">
+                    <img src="wp-content/uploads/img/tele8.png" alt="">
+                    <h2>Le télécentre SoLozère</h2>
+                </a>
+                <p>Un équipement au services des télétravailleurs</p>
+                <a href="#">Infos »</a>
+            </div>
+        </div>
+    </div>
 </main>
 
 <?php get_footer(); ?>
