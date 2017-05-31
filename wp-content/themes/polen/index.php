@@ -14,7 +14,10 @@
  * @since polen 0.000a
  */
 
-get_header(); ?>
+get_header();
+
+if ( have_posts() ) :
+?>
 
 <main>
     <div class="container" id="externalLink">
@@ -45,6 +48,29 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <?php $categories = get_categories(); ?>
+    <div class="container">
+        <div class="row">
+        <?php foreach ($categories as $category) {
+            $posts = get_posts(array(
+                'category_name' => $category->name,
+            ));
+            ?>
+            <div class="col-xs-4">
+                <h2><?php echo $category->name; ?></h2>
+                <?php foreach ($posts as $post) {
+                    ?>
+                <div class="row">
+                    <?php echo get_the_post_thumbnail(); ?>
+                    <h3><?php the_title(); ?></h3>
+                </div>
+            <?php } ?>
+            </div>
+    <?php } ?>
+</div>
+    </div>
 </main>
 
-<?php get_footer(); ?>
+<?php
+endif;
+get_footer(); ?>
