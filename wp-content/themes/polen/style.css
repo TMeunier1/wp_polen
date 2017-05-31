@@ -7,22 +7,23 @@ Description: C'du wordpress quoi
 Text Domain: polen
 */
 
-.slider {
+.images {
     display: inline-block;
     text-align: center;
     height: 27em;
     width: 100%;
 }
 
-#polenbuilding {
+.slider {
     position: absolute;
+    left: 420px;
 }
 
 #lozdev {
     position: relative;
-    top: 227px;
+    top: 96px;
     width: 992px;
-    left: -221px;
+    left: 212px;
 }
 
 #logopolen {
@@ -94,11 +95,4 @@ main div {
     border-bottom: 1px solid grey;
     margin: 1em 0;
     width: 250px;
-}
-
-#footer {
-    margin: auto;
-    width: 66%;
-    display: flex;
-    justify-content: space-around;
 }

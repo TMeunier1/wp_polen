@@ -15,10 +15,16 @@
 
 <body>
     <header>
-        <div class="slider">
-            <img src="http://polen-mende.com/wp-content/uploads/2013/05/polen.jpg" alt="polenbuilding" id="polenbuilding">
-            <img src="http://polen-mende.com/wp-content/uploads/2013/02/cropped-cropped-cropped-polen21.png" id="logopolen" alt="logopolen">
-            <img src="http://polen-mende.com/images/bandeau-blanc.png" alt="logolozeredevl" id="lozdev">
+        <div class="images">
+            <div class="slider">
+                <img src="http://polen-mende.com/wp-content/uploads/2013/05/polen.jpg" alt="polenbuilding" id="polenbuilding">
+            </div>
+            <div id="logopolen">
+                <img src="http://polen-mende.com/wp-content/uploads/2013/02/cropped-cropped-cropped-polen21.png" alt="logopolen">
+            </div>
+            <div  id="lozdev">    
+                <img src="http://polen-mende.com/images/bandeau-blanc.png" alt="logolozeredevl">
+            </div>
         </div>
         <nav>
             <ul>
