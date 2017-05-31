@@ -17,6 +17,17 @@
 get_header(); ?>
 
 <main>
+    <?php
+    $categories = get_categories();
+
+    foreach ($categories as $cat) {
+        $posts = get_posts(array('category_name' => $cat->name));
+        echo '<h3>'.$cat->name.'</h3>';
+        foreach ($posts as $post) {
+            echo get_the_post_thumbnail();
+            echo get_the_title();
+        }}
+    ?>
 
 </main>
 
