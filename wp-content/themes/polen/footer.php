@@ -1,6 +1,7 @@
 <?php wp_footer(); ?>
 
 </body>
+
 <footer>
     <div class="container">
         <div class="col-xs-3">

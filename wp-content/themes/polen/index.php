@@ -56,8 +56,8 @@ if ( have_posts() ) :
                 'category_name' => $category->name,
             ));
             ?>
-            <div class="col-xs-4">
-                <h2><?php echo $category->name; ?></h2>
+            <div class="col-xs-4 post">
+                <h2 class="catname"><?php echo $category->name; ?></h2>
                 <?php foreach ($posts as $post) {
                     ?>
                 <div class="row">
@@ -67,7 +67,7 @@ if ( have_posts() ) :
             <?php } ?>
             </div>
     <?php } ?>
-</div>
+        </div>
     </div>
 </main>
 
