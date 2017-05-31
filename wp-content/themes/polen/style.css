@@ -6,3 +6,7 @@ Author URI: https://wordpress.org/
 Description: C'du wordpress quoi
 Text Domain: polen
 */
+
+body {
+    background-color: red;
+}
