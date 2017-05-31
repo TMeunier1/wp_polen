@@ -7,6 +7,45 @@ Description: C'du wordpress quoi
 Text Domain: polen
 */
 
-body {
-    background-color: red;
+.slider {
+    display: inline-block;
+    text-align: center;
+    height: 24em;
+    width: 100%;
+}
+
+#polenbuilding {
+    position: absolute;
+}
+
+#lozdev {
+    position: relative;
+    top: 227px;
+    width: 992px;
+    left: -222px;
+}
+
+#logopolen {
+    position: relative;
+    left: 418px;
+    top: -44px;
+}
+
+nav ul {
+margin: auto;
+width: 66%;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a, nav ul li a:active, nav ul li a:visited  {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #c8c8c8;
 }
