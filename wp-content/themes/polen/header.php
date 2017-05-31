@@ -9,6 +9,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/bootstrap/css/bootstrap.css">
 	<?php wp_head(); ?>
 </head>
 
