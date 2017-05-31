@@ -76,3 +76,6 @@ main div {
 #externalLink img {
     float: left;
 }
+footer {
+    display: inline-block;
+}
