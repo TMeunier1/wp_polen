@@ -20,18 +20,6 @@ if ( have_posts() ) :
 ?>
 
 <main>
-
-    <?php
-    $categories = get_categories();
-
-    foreach ($categories as $cat) {
-        $posts = get_posts(array('category_name' => $cat->name));
-        echo '<h3>'.$cat->name.'</h3>';
-        foreach ($posts as $post) {
-            echo get_the_post_thumbnail();
-            echo get_the_title();
-        }}
-    ?>
     <div class="container" id="externalLink">
         <div class="row">
             <div class="col-xs-4">
@@ -68,8 +56,8 @@ if ( have_posts() ) :
                 'category_name' => $category->name,
             ));
             ?>
-            <div class="col-xs-4">
-                <h2><?php echo $category->name; ?></h2>
+            <div class="col-xs-4 post">
+                <h2 class="catname"><?php echo $category->name; ?></h2>
                 <?php foreach ($posts as $post) {
                     ?>
                 <div class="row">
@@ -79,7 +67,7 @@ if ( have_posts() ) :
             <?php } ?>
             </div>
     <?php } ?>
-</div>
+        </div>
     </div>
 </main>
 
